@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(images/clear.jpg);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1rem;
+    font-weight: normal;
+    color: rgb(131, 124, 124);
+    text-align: center;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: rgba(255,255,255, 0.8);
+    max-width: 600px;
+    min-width: 300px;
+    padding: 1.1rem;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.input-search{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: transparent;
+    text-align: center;
+}
+.input-search:focus{
+    outline: none;
+}
+
+.showLocation{
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+.dateTime{
+    margin: 1rem 0;
+}
+.temp{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(16, 138, 11);
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+}
+.minMax{
+    font-size: .8rem;
+    color: rgb(85, 80, 80);
+    width: 100%;
+    text-align: center;
+}
+.weather{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    color: rgb(62, 75, 43);
+    width: 100%;
+    text-align: center;
+}
